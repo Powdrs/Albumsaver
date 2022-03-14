@@ -73,7 +73,7 @@ function messagelink(ctx){
     return `Kirim BOT video, photo dan dokumen.`;
 }
 function documentation(ctx){
-    return `BOT di buat menggunakan \n<b>Program:</b> Node JS \n<b>API:</b> <a href='https://telegraf.js.org/'>Telegraf</a>`;
+    return `BOT di buat menggunakan \n<b>Program:</b> Node JS \n<b>API:</b> <a href='https://telegraf.js.org/'>Telegraf</a>\n\n @Powdrs`;
 }
 
 const url2 = process.env.LINKCHANNEL.split(/[\,-]+/);
@@ -84,7 +84,7 @@ const url4 = url2[1];
 const inKey = [
   [{text:'🔎 Pencarian',switch_inline_query:''},{text:'📎 Tautan',callback_data:'POP'}],
   [{text:'📚 Dokumentasi',callback_data:'DOC'},{text:'🆘 Bantuan',callback_data:'HELP'}],
-  [{text:'📰 Informasi BOT', url: 'https://t.me/INFORMASl_Robot/3'}],
+  [{text:'📰 Informasi BOT', url: 'https://t.me/painofwords'}],
   [{text: `${url3}`, url: `${url4}`}]
 ];
 
