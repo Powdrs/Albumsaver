@@ -4,21 +4,25 @@
 	"repository": "https://github.com/Powdrs/Albumsaver",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg",
 	"keywords": ["telegram","filesaver","bot","nodejs"],
-		"env": {
-		"TOKEN": {
-                         "description": "Token bot disediakan oleh  @botfather",
-                "value":""
-	        },       
+	"env": {
+        "TOKEN": {
+            "description": "Token bot disediakan oleh  @botfather",
+            "value":""
+        },
+        "DOMAIN":{
+            "description": "Masukkan nama aplikasi Anda",
+            "value": ""
+        },
         "DB_URL":{
             "description": "Dapatkan url basis data mongodb dari https://www.mongodb.com/cloud/atlas with database name = mediaFile and collection name = fileBackup",
-            "value":""
-               },
-        "ADMIN":{
-            "description": "Masukkan id akun kamu",
             "value":""
         },
         "BOTUSERNAME":{
             "description": "Masukkan nama pengguna bot Anda tanpa @ dan harus huruf kecil",
+            "value":""
+        },
+        "ADMIN":{
+            "description": "Masukkan id Admin",
             "value":""
         },
         "LOG_CHANNEL":{
@@ -27,27 +31,25 @@
         },
         "CAPTIONLINK":{
             "description": "Caption ketika link media yang dikirim di tekan",
-            "value":"BOT Sᴜᴘᴘᴏʀᴛ @SᴇxIES_OFFICIAL"
+            "value":"Selamat Menikmati, Support @Dinomerahindonesian."
         },
         "WELCOMEJOINBOT":{
             "description": "Masukkan pesan sebelum pengguna bergabung",
-            "value":"ᴡᴇʟᴄᴏᴍᴇ. ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ɪɴɪ\n\nSɪʟᴀʜᴋᴀɴ ᴊᴏɪɴ Gʀᴏᴜᴘ/Cʜᴀɴɴᴇʟ ᴜɴᴛᴜᴋ ᴍᴇɴɢɢᴜɴᴀᴋᴀɴ ʙᴏᴛ ɪɴɪ."
+            "value":"Silahkan Tekan Tombol Dibawah Terlebih Dahulu"
         },
         "MESSAGEWELCOMEBOT":{
             "description": "Masukkan pesan selamat datang ketika pengguna bergabung",
-            "value":"ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ʙᴇʀʟᴀɴɢɢᴀɴᴀɴ Gʀᴏᴜᴘ/Cʜᴀɴɴᴇʟ ᴋᴀᴍɪ"
+            "value":"Selamat Datang Kembali, Support @Dinomerahindonesian"
         },
         "CHANNELJOIN":{
-            "description": "Masukkan ID channel grup untuk identifikasi BOT bisa membaca pengguna yang masuk",
+            "description": "Masukkan ID channel grup untuk identifikasi bot bisa membaca pengguna yang masuk",
             "value":""
         },
         "LINKCHANNEL":{
             "description": "Link channel grup masukkan disini dan ikuti format penulisan",
-            "value":"Gabung-https://t.me/DatabaseOFC"
-        }
-        
-        	
-	},
+            "value":"Gabung-https://t.me/"
+        }  
+    },
 	"buildpacks": [
 		{
 			"url": "heroku/nodejs"
