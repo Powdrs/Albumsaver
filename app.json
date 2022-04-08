@@ -17,12 +17,12 @@
             "description": "Dapatkan url basis data mongodb dari https://www.mongodb.com/cloud/atlas with database name = mediaFile and collection name = fileBackup",
             "value":""
         },
-        "BOTUSERNAME":{
-            "description": "Masukkan nama pengguna bot Anda tanpa @ dan harus huruf kecil",
+        "ADMIN":{
+            "description": "Masukkan id akun kamu",
             "value":""
         },
-        "ADMIN":{
-            "description": "Masukkan id Admin",
+        "BOTUSERNAME":{
+            "description": "Masukkan nama pengguna bot Anda tanpa @ dan harus huruf kecil",
             "value":""
         },
         "LOG_CHANNEL":{
@@ -31,15 +31,15 @@
         },
         "CAPTIONLINK":{
             "description": "Caption ketika link media yang dikirim di tekan",
-            "value":"Selamat Menikmati, Support @Dinomerahindonesian."
+            "value":""
         },
         "WELCOMEJOINBOT":{
             "description": "Masukkan pesan sebelum pengguna bergabung",
-            "value":"Silahkan Tekan Tombol Dibawah Terlebih Dahulu"
+            "value":""
         },
         "MESSAGEWELCOMEBOT":{
             "description": "Masukkan pesan selamat datang ketika pengguna bergabung",
-            "value":"Selamat Datang Kembali, Support @Dinomerahindonesian"
+            "value":""
         },
         "CHANNELJOIN":{
             "description": "Masukkan ID channel grup untuk identifikasi bot bisa membaca pengguna yang masuk",
@@ -47,7 +47,7 @@
         },
         "LINKCHANNEL":{
             "description": "Link channel grup masukkan disini dan ikuti format penulisan",
-            "value":"Gabung-https://t.me/"
+            "value":"Gabung-https://t.me/test"
         }  
     },
 	"buildpacks": [
